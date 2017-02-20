@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xmlns="http://java.sun.com/xml/ns/javaee"
+	xsi:schemaLocation="http://java.sun.com/xml/ns/javaee http://java.sun.com/xml/ns/javaee/web-app_3_0.xsd"
+	id="WebApp_ID" version="3.0">
+	<display-name>sistemaProdutos</display-name>
+	<welcome-file-list>
+		<welcome-file>index.html</welcome-file>
+		<welcome-file>index.htm</welcome-file>
+		<welcome-file>index.jsp</welcome-file>
+		<welcome-file>default.html</welcome-file>
+		<welcome-file>default.htm</welcome-file>
+		<welcome-file>default.jsp</welcome-file>
+	</welcome-file-list>
+
+	<!-- MAPEANDO O STRUTS 1.3.10 -->
+	<servlet>
+		<servlet-name>strutus</servlet-name>
+		<!-- informa qual servlet usar -->
+		<servlet-class>org.apache.struts.action.ActionServlet</servlet-class>
+
+		<init-param>
+			<param-name>config</param-name>
+			<param-value>/WEB-INF/struts-config.xml</param-value>
+		</init-param>
+		<!-- quando subir o toncat, esse será o primeiro a ser carregado -->
+		<load-on-startup>1</load-on-startup>
+	</servlet>
+
+	<!-- por qual apelido o struts ira responder -->
+	<servlet-mapping>
+		<servlet-name>strutus</servlet-name>
+		<url-pattern>*.src</url-pattern>
+	</servlet-mapping>
+	
+	<!--FIM MAPEANDO O STRUTS 1.3.10 -->
+
+</web-app>

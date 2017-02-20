@@ -1,0 +1,321 @@
+.botao {
+	font-family: BankGothic Md BT Medium, Verdana;
+	font-size: 14px;
+	font-weight: bold;
+	color: #333333 !important;
+	/* text-shadow: 3px 1px 0px #7CACDE; */
+	/* box-shadow: 1px 1px 1px #FFFF00; */
+	padding: 8px 10px;
+	-moz-border-radius: 6px;
+	-webkit-border-radius: 6px;
+	border-radius: 6px;
+	border: 1px solid #333333;
+	background: #63B8EE;
+	background: linear-gradient(top, #D5D4C8, #FFFFFF);
+	background: -ms-linear-gradient(top, #D5D4C8, #FFFFFF);
+	background: -webkit-gradient(linear, left top, left bottom, from(#D5D4C8),to(#FFFFFF));
+	background: -moz-linear-gradient(top, #D5D4C8, #FFFFFF);
+}
+
+.botao:hover {
+	color: #fff !important;
+	background: #468CCF;
+	background: linear-gradient(top, #333333, #333333);
+	background: -ms-linear-gradient(top, #333333, #333333);
+	background: -webkit-gradient(linear, left top, left bottom, from(#333333), to(#333333));
+	background: -moz-linear-gradient(top, #333333, #333333);
+}
+
+/* BOTÃO ABAS */
+.botao_excluir {
+	background: url(../images/botoes/background_submit.gif) repeat-x;
+	width: 60px;
+	display: inline-block;
+	padding: 4px;
+	color: #333;
+	font-size: 11px;
+	font: Verdana;
+	text-decoration: none;
+	text-align: center;
+	font-weight: bold;
+	line-height: -1;
+	-moz-border-radius: 5px;
+	-webkit-border-radius: 5px;
+	-moz-box-shadow: 0 1px 1px rgba(0, 0, 0, 0.1);
+	-webkit-box-shadow: 0 1px 1px rgba(0, 0, 0, 0.1);
+	text-shadow: 0 -1px 1px rgba(0, 0, 0, 0.1);
+	border: 1px solid #666;
+	position: relative;
+	cursor: pointer;
+	/* width:100px; */
+	margin: 2px;
+}
+
+.botao_excluir:hover {
+	background: #CD0000;
+	border: 1px solid #FF0000;
+	color: #FFF;
+}
+
+.botao_adicionar {
+	background: url(../images/botoes/background_submit.gif) repeat-x;
+	background-image: url(../images/botoes/add_24x24.png);
+	background-position: -1px;
+	vertical-align: "middle";
+	text-align: center;
+	width: 18px;
+	height: 18px;
+	display: inline-block;
+	padding: 4px;
+	color: #333;
+	font-size: 11px;
+	font: Verdana;
+	text-decoration: none;
+	font-weight: bold;
+	line-height: -1;
+	-moz-border-radius: 5px;
+	-webkit-border-radius: 5px;
+	-moz-box-shadow: 0 1px 1px rgba(0, 0, 0, 0.1);
+	-webkit-box-shadow: 0 1px 1px rgba(0, 0, 0, 0.1);
+	text-shadow: 0 -1px 1px rgba(0, 0, 0, 0.1);
+	border: 1px solid #FFFFFF;
+	position: relative;
+	cursor: pointer;
+	/* width:100px; */
+	margin: 2px;
+}
+
+.botao_adicionar:hover {
+	background: #1F325D;
+	border: 1px solid #3300FF;
+	color: #FFF;
+	background-image: url(../images/botoes/add_24x24.png);
+	background-position: -1px;
+}
+
+.botao_editar {
+	background: url(../images/botoes/background_submit.gif) repeat-x;
+	background-image: url(../images/botoes/edit_24x24.png);
+	background-position: -1px;
+	vertical-align: "middle";
+	text-align: center;
+	width: 18px;
+	height: 18px;
+	display: inline-block;
+	padding: 4px;
+	color: #333;
+	font-size: 11px;
+	font: Verdana;
+	text-decoration: none;
+	font-weight: bold;
+	line-height: -1;
+	-moz-border-radius: 5px;
+	-webkit-border-radius: 5px;
+	-moz-box-shadow: 0 1px 1px rgba(0, 0, 0, 0.1);
+	-webkit-box-shadow: 0 1px 1px rgba(0, 0, 0, 0.1);
+	text-shadow: 0 -1px 1px rgba(0, 0, 0, 0.1);
+	border: 1px solid #FFFFFF;
+	position: relative;
+	cursor: pointer;
+	/* width:100px; */
+	margin: 2px;
+}
+
+.botao_editar:hover {
+	background: #1F325D;
+	border: 1px solid #3300FF;
+	color: #FFF;
+	background-image: url(../images/botoes/edit_24x24.png);
+	background-position: -1px;
+}
+
+.botao_novo {
+	background: url(../images/botoes/background_submit.gif) repeat-x;
+	background-image: url(../images/botoes/page_white.png);
+	background-position: -2px;
+	vertical-align: "middle";
+	text-align: center;
+	width: 18px;
+	height: 18px;
+	display: inline-block;
+	padding: 4px;
+	color: #333;
+	font-size: 11px;
+	font: Verdana;
+	text-decoration: none;
+	font-weight: bold;
+	line-height: -1;
+	-moz-border-radius: 5px;
+	-webkit-border-radius: 5px;
+	-moz-box-shadow: 0 1px 1px rgba(0, 0, 0, 0.1);
+	-webkit-box-shadow: 0 1px 1px rgba(0, 0, 0, 0.1);
+	text-shadow: 0 -1px 1px rgba(0, 0, 0, 0.1);
+	border: 1px solid #FFFFFF;
+	position: relative;
+	cursor: pointer;
+	/* width:100px; */
+	margin: 2px;
+}
+
+.botao_novo:hover {
+	background: #1F325D;
+	border: 1px solid #3300FF;
+	color: #FFF;
+	background-image: url(../images/botoes/page_white.png);
+	background-position: -2px;
+}
+
+.botao_selecionar {	
+	background-image: url(../images/botoes/document_up_16x16.png);
+	background-position: 1px;
+	vertical-align: "middle";
+	text-align: center;
+	width: 9px;
+	height: 8px;
+	display: inline-block;
+	padding: 4px;
+	color: #333;
+	font-size: 11px;
+	text-decoration: none;
+	line-height: -1;
+	-moz-border-radius: 5px;
+	-webkit-border-radius: 5px;
+	-moz-box-shadow: 0 1px 1px rgba(0, 0, 0, 0.1);
+	-webkit-box-shadow: 0 1px 1px rgba(0, 0, 0, 0.1);
+	text-shadow: 0 -1px 1px rgba(0, 0, 0, 0.1);
+	border: 1px solid #FFFFFF;
+	position: relative;
+	cursor: pointer;
+	/* width:100px; */
+	margin: 2px;
+}
+
+.botao_selecionar:hover {
+	background: #FFFFFF;
+	border: 1px solid #3300FF;
+	color: #FFF;
+	background-image: url(../images/botoes/document_up_16x16.png);
+	background-position: 1px;
+}
+
+.botao_remover {
+	background: url(../images/botoes/background_submit.gif) repeat-x;
+	background-image: url(../images/botoes/delete_24x24.png);
+	background-position: -1px;
+	vertical-align: "middle";
+	text-align: center;
+	width: 18px;
+	height: 18px;
+	display: inline-block;
+	padding: 4px;
+	color: #333;
+	font-size: 11px;
+	font: Verdana;
+	text-decoration: none;
+	font-weight: bold;
+	line-height: -1;
+	-moz-border-radius: 5px;
+	-webkit-border-radius: 5px;
+	-moz-box-shadow: 0 1px 1px rgba(0, 0, 0, 0.1);
+	-webkit-box-shadow: 0 1px 1px rgba(0, 0, 0, 0.1);
+	text-shadow: 0 -1px 1px rgba(0, 0, 0, 0.1);
+	border: 1px solid #FFFFFF;
+	position: relative;
+	cursor: pointer;
+	/* width:100px; */
+	margin: 2px;
+}
+
+.botao_remover:hover {
+	background: #1F325D;
+	border: 1px solid #3300FF;
+	color: #FFF;
+	background-image: url(../images/botoes/delete_24x24.png);
+	background-position: -1px;
+}
+
+.botao_permissoes {
+	background: url(../images/background_submit.gif) repeat-x;
+	width: 150px;
+	display: inline-block;
+	padding: 4px;
+	color: #333;
+	font-size: 11px;
+	font: Verdana;
+	text-decoration: none;
+	text-align: center;
+	font-weight: bold;
+	line-height: -1;
+	-moz-border-radius: 5px;
+	-webkit-border-radius: 5px;
+	-moz-box-shadow: 0 1px 1px rgba(0, 0, 0, 0.1);
+	-webkit-box-shadow: 0 1px 1px rgba(0, 0, 0, 0.1);
+	text-shadow: 0 -1px 1px rgba(0, 0, 0, 0.1);
+	border: 1px solid #666;
+	position: relative;
+	cursor: pointer;
+	/* width:100px; */
+	margin: 2px;
+	text-decoration: none;
+}
+
+.botao_permissoes:hover {
+	background: url(../images/background_submit.gif) repeat-x;
+	width: 150px;
+	display: inline-block;
+	padding: 4px;
+	color: #333;
+	font-size: 11px;
+	font: Verdana;
+	text-decoration: none;
+	text-align: center;
+	font-weight: bold;
+	line-height: -1;
+	-moz-border-radius: 5px;
+	-webkit-border-radius: 5px;
+	-moz-box-shadow: 0 1px 1px rgba(0, 0, 0, 0.1);
+	-webkit-box-shadow: 0 1px 1px rgba(0, 0, 0, 0.1);
+	text-shadow: 0 -1px 1px rgba(0, 0, 0, 0.1);
+	border: 1px solid #666;
+	position: relative;
+	cursor: pointer;
+	/* width:100px; */
+	margin: 2px;
+}
+
+
+.botao_lupa {
+	background: url(../images/botoes/background_submit.gif) repeat-x;
+	background-image: url(../images/botoes/lupa_16x16.png);
+	background-position: -1px;
+	vertical-align: "middle";
+	text-align: center;
+	width: 18px;
+	height: 18px;
+	display: inline-block;
+	padding: 4px;
+	color: #333;
+	font-size: 11px;
+	font: Verdana;
+	text-decoration: none;
+	font-weight: bold;
+	line-height: -1;
+	-moz-border-radius: 5px;
+	-webkit-border-radius: 5px;
+	-moz-box-shadow: 0 1px 1px rgba(0, 0, 0, 0.1);
+	-webkit-box-shadow: 0 1px 1px rgba(0, 0, 0, 0.1);
+	text-shadow: 0 -1px 1px rgba(0, 0, 0, 0.1);
+	border: 1px solid #FFFFFF;
+	position: relative;
+	cursor: pointer;
+	/* width:100px; */
+	margin: 2px;
+}
+
+.botao_lupa:hover {
+	background: #1F325D;
+	border: 1px solid #3300FF;
+	color: #FFF;
+	background-image: url(../images/botoes/lupa_16x16.png);
+	background-position: -1px;
+}

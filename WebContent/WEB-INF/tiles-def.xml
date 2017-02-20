@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE tiles-definitions PUBLIC
+"-//Apache Software Foundation//DTD Tiles Configuration 1.3//EN"
+"http://struts.apache.org/dtds/tiles-config_1_3.dtd">
+
+<tiles-definitions>
+
+   <!-- DEFINIÇÃO TEMPLATE  -->
+  <definition name="templateSistema" path="/template/template.jsp">
+  	<put name="banner" value="banner.jsp" />
+  	<put name="menu" value="menu.jsp" />
+  	<put name="body" value="body.jsp" />
+  	<put name="footer" value="footer.jsp" />
+  </definition>
+  
+  <!-- DEFINIÇÃO ONDE CADA COISA APARECE  -->
+  <definition name=".categoriaTILES" extends="templateSistema">
+  	<put name="body" value="/paginas/restrito/categoria/categoria.jsp" />
+  </definition>
+  
+    <definition name=".categoriaConsultaTILES" extends="templateSistema">
+  	<put name="body" value="/paginas/restrito/categoria/categoria_consulta.jsp" />
+  </definition>
+  
+  <definition name=".produtoTILES" extends="templateSistema">
+  	<put name="body" value="/paginas/restrito/produto/produto.jsp" />
+  </definition>
+  
+  
+</tiles-definitions>
